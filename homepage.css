@@ -1,0 +1,140 @@
+header {
+	background-color: #000;
+	margin-bottom: 20px;
+	overflow: hidden;
+	
+}
+
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#title {
+	display:block;
+	line-height:55px;
+	height: 55px;
+	width: 30%;
+	float: left;
+}
+
+nav {
+	line-height: 55px;
+	height: 55px;
+	width: 60%;
+	float: right;
+}
+
+nav li{
+	display: inline;
+}
+
+nav ul{
+	text-transform: uppercase;
+	text-align: justify;
+}
+
+nav ul: after{
+	content:'';
+	display:inline-block;
+	width: 100%;
+	height: 0;
+}
+
+nav a {
+	padding: 1em 1em;
+}
+
+#title a:focus, #title a:hover, #title a:active{
+	color: white;
+}
+
+nav a:focus, nav a:hover, nav a:active{
+	color: #ce6f20;
+}
+
+header img{
+	width: 52px;
+	height: 52px;
+	background: #555;
+	margin-left: 10px;
+	vertical-align: middle;
+	border-radius: 30%;
+}
+
+
+main p {
+	width: 885;
+	text-align: center;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+
+footer {
+	background: #000000;
+	height: 100px;
+}
+
+footer p {
+	text-align: center;
+	color: #fff;
+}
+
+h1 {
+	color: #fff;
+	margin-left: 10px;
+}
+.word {
+	margin-left: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+main img{
+	height:400;
+	width:100%;
+	position: absolute;
+}
+.images {
+	height: 400;
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+.left_holder {
+	height: 450;
+	width: 100;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.right_holder {
+	height: 450;
+	width: 100;
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+
+.left {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 40%;
+	left: 0px;
+}
+
+.right {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 40%;
+	right: 0px;
+}

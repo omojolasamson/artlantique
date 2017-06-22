@@ -1,0 +1,31 @@
+.im{
+	width: 150px;
+	height: 100px;
+	margin: 10px;
+	display: inline-block;
+	box-shadow: 3px 3px 10px #000000;
+	webkit-box-shadow: 3px 3px 29px #000000;
+
+	/*-webkit-webkit-transition: all 1s ease;
+	-moz-webkit-transition: all 1s ease;
+	-ms-webkit-transition: all 1s ease;
+	--webkit-transition: all 1s ease;*/
+	transition: all 1s ease;
+}
+
+.im:hover{
+	transform: translateZ(25px) rotate(3deg);
+	transition: all 1s ease;
+	/*border: 1px solid #000000;*/
+}
+
+
+/*@media only screen and (max-width: 1024px){
+	html{
+		font-size: 11px;
+	}
+
+	figure{
+		width: calc(100% / 3);
+	}
+}

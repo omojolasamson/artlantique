@@ -1,0 +1,190 @@
+.contain {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.seven:first-child,.eight:first-child,.nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child,.four:first-child,.three:first-child,.two:first-child,.one:first-child,.six:first-child {
+	margin-left:0;
+}
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;	
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;	
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;	
+}
+.eight {
+	width: 66%;
+	float: left;
+	margin-left: 2%;	
+}
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;	
+}
+.six {
+	width: 49%;
+	float: left;
+	margin-left: 2%;	
+}
+.five {
+	width: 40.5%;
+	float: left;
+	margin-left: 2%;	
+}
+.four {
+	width: 32%;
+	float: left;
+	margin-left: 2%;	
+}
+.three {
+	width: 23.5%;
+	float: left;
+	margin-left: 2%;	
+}
+.two {
+	width: 15%;
+	float: left;
+	margin-left: 2%;	
+}
+.one {
+	width: 6.5%;
+	float: left;
+	margin-left: 2%;	
+}
+.row {
+	width: 100%;
+	clear: both;
+	padding: 0px;
+	margin: 0px;	
+}
+
+.row1 .three,.row1 .six {
+	height: 333px;
+	/*background-color: #F13328;*/
+}
+
+.row2 .three,.row2 .six {
+	height: 333px;
+	/*background-color: #613328;*/
+}
+
+.row3 .three,.row3 .six {
+	height: 333px;
+	background-color: #F89426;
+}
+
+.row4 .three,.row4 .six {
+	height: 333px;
+	/*background-color: #F96980;*/
+}
+
+.row5 .three,.row5 .six {
+	height: 333px;
+	/*background-color: #F27935;*/
+}
+
+.row7 .three, .row7 .six {
+	height: 333px;
+	background-color: #F27935;
+}
+
+.row1 .osi {
+	background: url('img2.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.row1 .arin {
+	background: #d13328;
+}
+.row1 .otun {
+	background: url('img1.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.row2 .osi {
+	background: #d13328;
+}
+.row2 .arin {
+	background: url('img10.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.row2 .otun {
+	background: url('img11.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.row4 .okan {
+	background: url('img4.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.row4 .eji {
+	background: url('img12.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.row4 .eta {
+	background: url('img5.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.row4 .erin {
+	background: #d13328;
+}
+
+.row5 .osi {
+	background: url('img8.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.row5 .arin {
+	background: url('img13.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.row5 .otun {
+	background: url('img14.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.row1, .row2, .row4, .row5, .row7{
+	margin-top: 30px;
+	padding-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
